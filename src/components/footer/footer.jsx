@@ -19,7 +19,7 @@ const Footer = () => {
                 <hr />
                 <div className={styles.column}>
                     <b>Copyright</b>
-                    <a href="#">Conditions d'utilisation</a>
+                    <a href="#">Conditions d&apos;utilisation</a>
                     <a href="#">Politique de Confidentialité</a>
                     <a href="#">About</a>
                 </div>
