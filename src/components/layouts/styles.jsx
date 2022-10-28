@@ -6,9 +6,10 @@ let styles = {
     title: " pb-8 pt-6 uppercase",
     paragraph: "pb-20",
     border: "flex justify-center",
-    imgborder: "",
+    image: "rounded-3xl",
     section: "pb-8 pt-12",
-    hr: "bg-yellow-400 h-1 border-none mb-6",
+    hr: "bg-yellow-400 h-1 border-none mt-8 mb-4",
+    link: "pt-8",
 }
 
 export default styles;
