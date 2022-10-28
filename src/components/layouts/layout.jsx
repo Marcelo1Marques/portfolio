@@ -28,7 +28,7 @@ const Layout = ({children}) => {
                     </section>
                     <hr className={styles.hr} />
                     <section className={styles.section}>
-                        <h1 className={styles.title}>Agence Web</h1>
+                        <h1 id="agency" className={styles.title}>Agence Web</h1>
                         <div>
                             <p>
                                 Ce projet devait passer par les nombreuses étapes de la création d&apos;une agence en ligne, de l&apos;organisation du travail à la création du site internet. Il a été créé à l&apos;aide de Webpack.
@@ -37,7 +37,7 @@ const Layout = ({children}) => {
                         </div>
                     </section><hr className={styles.hr} />
                     <section className={styles.section}>
-                        <h1 className={styles.title}>App Bancaire</h1>
+                        <h1 id="bank" className={styles.title}>App Bancaire</h1>
                         <div>
                             <p>
                                 Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires.
@@ -48,7 +48,7 @@ const Layout = ({children}) => {
                         </div>
                     </section><hr className={styles.hr} />
                     <section className={styles.section}>
-                        <h1 className={styles.title}>Boutique</h1>
+                        <h1 id="shop" className={styles.title}>Boutique</h1>
                         <div>
                             <p>
                                 Ce projet s&apos;inscrit dans la continuité de l&apos;agence web, créant une boutique en ligne pour le site précédemment créé.
@@ -56,19 +56,13 @@ const Layout = ({children}) => {
                         </div>
                     </section><hr className={styles.hr} />
                     <section className={styles.section}>
-                        <h1 className={styles.title}>Blog</h1>
+                        <h1 id="movies" className={styles.title}>Site de films</h1>
                         <div>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ratione pariatur fugit dolorem recusandae, numquam mollitia iste tenetur possimus illo quod, enim nam nisi perferendis amet iure animi. Temporibus, libero!
                         </div>
                     </section><hr className={styles.hr} />
                     <section className={styles.section}>
-                        <h1 className={styles.title}>Site de films</h1>
-                        <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ratione pariatur fugit dolorem recusandae, numquam mollitia iste tenetur possimus illo quod, enim nam nisi perferendis amet iure animi. Temporibus, libero!
-                        </div>
-                    </section><hr className={styles.hr} />
-                    <section className={styles.section}>
-                        <h1 className={styles.title}>Contact</h1>
+                        <h1 id="contact" className={styles.title}>Contact</h1>
                         <div>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ratione pariatur fugit dolorem recusandae, numquam mollitia iste tenetur possimus illo quod, enim nam nisi perferendis amet iure animi. Temporibus, libero!
                         </div>

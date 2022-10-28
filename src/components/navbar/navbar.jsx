@@ -19,11 +19,11 @@ const Navbar = () => {
                             <FontAwesomeIcon icon="fa-solid fa-bars" />                           
                             </button>
                             <Menu>
-                                <a id="agence-web" className={styles.list} href="">Agence Web</a>
-                                <a id="app-bank" className={styles.list} href="">App Bancaire</a>
-                                <a id="shop" className={styles.list} href="">Boutique</a>
-                                <a id="blog" className={styles.list} href="">Blog</a>
-                                <a id="movie" className={styles.list} href="">Site de Films</a>
+                                <a className={styles.list} href="#agency">Agence Web</a>
+                                <a className={styles.list} href="#bank">App Bancaire</a>
+                                <a className={styles.list} href="#shop">Boutique</a>
+                                <a className={styles.list} href="#movies">Site de Films</a>
+                                <a className={styles.list} href="#contact">Contact</a>
                             </Menu>
                           </div>
                       </div>
