@@ -1,5 +1,5 @@
 let styles = {
-    main: "min-h-screen text-yellow-400 text-sm",
+    main: "min-h-screen text-yellow-400 text-sm md:text-lg",
     template: "flex flex-col text-center px-8",
     outerframe:"flex shrink-0 h-64 w-64 bg-gradient-to-r from-red-600 to-blue-600",
     innerframe:"h-28 w-28 bg-cover m-auto",
