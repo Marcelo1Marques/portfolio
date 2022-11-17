@@ -1,7 +1,4 @@
 import styles from "./styles";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faAddressCard } from '@fortawesome/fontawesome-free';
-
 
 const Footer = () => {
     return (

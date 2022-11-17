@@ -12,9 +12,7 @@ import Nodejs from "../../assets/img/nodejs.png";
 import Python from "../../assets/img/python.png";
 import React from "react";
 import styles from "@src/components/layouts/styles";
-import { useSpring, animated } from 'react-spring';
-
-// const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
+import 'animate.css';
 
 const Layout = ({children}) => {      
     return (
@@ -36,17 +34,17 @@ const Layout = ({children}) => {
                         <h3 className={styles.h3}>Avec quoi je travaille ?</h3>
                         <h3 className={styles.h3}>Front-End</h3>
                         <span className={styles.frontend}>
-                            <Image src={Html} alt="logo" width="150" height="150" />
-                            <Image src={Css} alt="logo" width="170" height="150" />
-                            <Image src={Javascript} alt="logo" width="150" height="150" />
-                            <Image src={ReactImg} alt="logo" width="150" height="150" />
+                            <Image className={styles.logo} src={Html} alt="logo" width="200" height="180" />
+                            <Image className={styles.logo} src={Css} alt="logo" width="200" height="180" />
+                            <Image className={styles.logo} src={Javascript} alt="logo" width="200" height="180" />
+                            <Image className={styles.logo} src={ReactImg} alt="logo" width="200" height="180" />
                         </span>
                             <h3 className={styles.h3}>Back-End</h3>
                         <span className={styles.backend}>
-                            <Image src={Sql} alt="logo" width="160" height="150" />
-                            <Image src={Php} alt="logo" width="170" height="150" />
-                            <Image src={Nodejs} alt="logo" width="150" height="150" />
-                            <Image src={Python} alt="logo" width="150" height="150" />
+                            <Image className={styles.logo} src={Sql} alt="logo" width="200" height="180" />
+                            <Image className={styles.logo} src={Php} alt="logo" width="200" height="180" />
+                            <Image className={styles.logo} src={Nodejs} alt="logo" width="200" height="180" />
+                            <Image className={styles.logo} src={Python} alt="logo" width="200" height="180" />
                         </span>
                     </section>
                     <hr className={styles.hr} />
@@ -93,7 +91,6 @@ const Layout = ({children}) => {
                         <div>
                             <p className={styles.paragraph}>Si vous souhaitez me contacter, le lien suivant vous guidera vers mon CV en ligne.</p>
                             <Image className={styles.image} src={Profile} alt="agence-web" width={250} height={250}/>
-                            <p className={styles.link}>Code: <a href="#">GithubLink</a></p>
                         </div>
                     </section>
                     <hr className={styles.hr} />

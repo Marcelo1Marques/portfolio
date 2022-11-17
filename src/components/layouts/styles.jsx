@@ -6,13 +6,14 @@ let styles = {
     title: "pb-8 pt-6 uppercase",
     paragraph: "pb-20",
     border: "flex justify-center",
-    image: "rounded-3xl",
+    image: "rounded-3xl animate__animated animate__lightSpeedInRight",
     section: "pb-8 pt-12",
-    hr: "bg-yellow-400 h-1 border-none mt-8 mb-4",
+    hr: "bg-yellow-400 h-1 border-none mt-8 mb-20",
     link: "pt-8",
-    h3: "uppercase pb-8",
+    h3: "uppercase pb-16",
     frontend: "flex flex-row justify-around gap-x-6 pb-40",
     backend: "flex flex-row justify-around gap-x-6 pb-32",
+    logo: "animate__animated animate__rubberBand animate__infinite animate__slower",
 };
 
 export default styles;
