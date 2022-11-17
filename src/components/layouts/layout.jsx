@@ -1,6 +1,7 @@
+import React from "react";
+import Image from "next/image";
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
-import Image from "next/image";
 import Profile from "../../assets/img/proxy.jpg";
 import Html from "../../assets/img/html5.png";
 import Css from "../../assets/img/css.png";
@@ -10,9 +11,10 @@ import Sql from "../../assets/img/sql.png";
 import Php from "../../assets/img/php.png";
 import Nodejs from "../../assets/img/nodejs.png";
 import Python from "../../assets/img/python.png";
-import React from "react";
 import styles from "@src/components/layouts/styles";
 import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Layout = ({children}) => {      
     return (
@@ -100,5 +102,6 @@ const Layout = ({children}) => {
         </>
     )
 };
+
 
 export default Layout;
