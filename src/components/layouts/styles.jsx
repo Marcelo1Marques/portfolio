@@ -6,7 +6,7 @@ let styles = {
     title: "pb-8 pt-6 uppercase underline",
     paragraph: "pb-20",
     border: "flex justify-center",
-    section: "pb-8 pt-12",
+    section: "flex flex-col pb-8 pt-12",
     hr: "bg-yellow-400 h-1 border-none mt-8 mb-20",
     link: "pt-8",
     h3: "uppercase pb-16",
