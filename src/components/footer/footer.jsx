@@ -7,8 +7,8 @@ const Footer = () => {
                 {/* Col 1 */}
                 <div className={styles.column}>
                     <b className={styles.title}>Projects</b>
-                    <a id="agence-web" href="#">Agence Web</a>
-                    <a id="app-bank" href="#">App Bancaire</a>
+                    <a id="agence-web" href="https://meta-code.netlify.app/">Agence Web</a>
+                    <a id="app-bank" href="https://bank-marcelo.netlify.app/">App Bancaire</a>
                     <a id="shop" href="#">Boutique</a>
                     <a id="blog" href="#">Blog</a>
                     <a id="movie" href="#">Site de Films</a>
@@ -23,6 +23,8 @@ const Footer = () => {
                 <hr />
                 <div className={styles.column}>
                     <b>Liens sociaux</b>
+                    <a href="https://github.com/Marcelo1Marques">Github</a>
+                    <a href="https://www.linkedin.com/in/marcelo-marques-57297a22a/">Linkedin</a>
                 </div>
             </div>
         </footer>
