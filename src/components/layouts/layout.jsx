@@ -23,7 +23,7 @@ const Layout = ({children}) => {
     return (
         <>
             <Navbar />
-            <main style={{ background: "linear-gradient(#000000, #0d0ab9, #1059d9, #0d0ab9, #000000)" }} className={styles.main}>{children}
+            <main style={{ background: "linear-gradient(#000000, #0ab949, #43dd7a, #0ab949, #000000)" }} className={styles.main}>{children}
                 <div className={styles.template}>
                     <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                         <div className={styles.border}>
@@ -75,7 +75,7 @@ const Layout = ({children}) => {
                         </div>
                     </section>
                     <div className={styles.sectionBorder} style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }}> 
-                        <section className={styles.section}>
+                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <b id="agency" className={styles.title}>Mes Projects</b>
                             <h1 className={styles.title}>Agence Web</h1>
                             <div>
@@ -87,7 +87,7 @@ const Layout = ({children}) => {
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section className={styles.section}>
+                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="bank" className={styles.title}>App Bancaire</h1>
                             <div>
                                 <p className={styles.paragraph}>
@@ -98,7 +98,7 @@ const Layout = ({children}) => {
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section className={styles.section}>
+                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="shop" className={styles.title}>Boutique</h1>
                             <div>
                                 <p className={styles.paragraph}>
@@ -109,7 +109,7 @@ const Layout = ({children}) => {
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section className={styles.section}>
+                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="movies" className={styles.title}>Site de films</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
@@ -118,7 +118,7 @@ const Layout = ({children}) => {
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section className={styles.section}>
+                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="movies" className={styles.title}>Blog</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
