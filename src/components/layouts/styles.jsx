@@ -3,7 +3,7 @@ let styles = {
     template: "flex flex-col text-center px-8",
     outerframe:"flex shrink-0 h-64 w-64 bg-gradient-to-r from-red-600 to-blue-600",
     innerframe:"h-28 w-28 bg-cover m-auto",
-    title: "pb-8 pt-6 uppercase underline",
+    title: "pb-8 pt-12 uppercase underline",
     sectionBorder: "rounded-3xl",
     paragraph: "pb-20 px-12",
     border: "flex justify-center",
@@ -11,10 +11,10 @@ let styles = {
     hr: "bg-yellow-400 h-2 border-none mt-20 mb-20 mx-6",
     link: "pt-8",
     h3: "uppercase pb-16",
-    frontend: "animate__animated animate__heartBeat animate__infinite",
-    backend: "animate__animated animate__heartBeat animate__infinite",
+    frontend: "animate__animated animate__slower animate__heartBeat animate__infinite pt-8",
+    backend: "animate__animated animate__heartBeat animate__infinite pt-8",
     image: "rounded-3xl",
-    logo: "flex flex-row-2 justify-around gap-x-6 pb-40 pt-32 rounded-3xl m-6",
+    logo: "grid grid-row-2 md:flex md:flex-row-2 md:justify-around gap-y-16 pb-40 pt-32 rounded-3xl m-6",
 };
 
 export default styles;
