@@ -13,14 +13,12 @@ const Footer = () => {
                     <a id="blog" href="#">Blog</a>
                     <a id="movie" href="#">Site de Films</a>
                 </div>
-                <hr />
                 <div className={styles.column}>
                     <b>Copyright</b>
                     <a href="#">Conditions d&apos;utilisation</a>
                     <a href="#">Politique de Confidentialité</a>
                     <a href="#">About</a>
                 </div>
-                <hr />
                 <div className={styles.column}>
                     <b>Liens sociaux</b>
                     <a href="https://github.com/Marcelo1Marques">Github</a>

@@ -14,6 +14,7 @@ import Python from "../../assets/img/python.png";
 import Agence from "../../assets/img/agence.png";
 import Bank from "../../assets/img/bank.png";
 // import Shop from "../../assets/img/";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from "@src/components/layouts/styles";
 import 'animate.css';
 import AOS from 'aos';
@@ -37,7 +38,7 @@ const Layout = ({children}) => {
                         <p className={styles.paragraph}>Je m&apos;appelle Marcelo et bienvenue dans mon portfolio. Vous pouvez lire et voir mon travail en tant que développeur web au fil des ans. Pour toutes questions, n&apos;hésitez pas à me contacter via mon espace contact. <br /> Merci de votre visite.</p>
                         <b className={styles.title}>Domaines de travail</b>
                         <h3 className={styles.h3}>Avec quoi je travaille ?</h3>
-                        <div style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
+                        <div data-aos="zoom-in" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
                             <div className={styles.frontend}>
                                 <Image src={Html} alt="logo" width="100" height="100" />
                                 <p>HTML5</p>
@@ -55,7 +56,7 @@ const Layout = ({children}) => {
                                 <p>React</p>
                             </div>
                         </div>
-                        <div style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
+                        <div data-aos="zoom-in" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
                             <div className={styles.backend}>
                                 <Image src={Sql} alt="logo" width="100" height="100" />
                                 <p>SQL</p>
@@ -75,7 +76,7 @@ const Layout = ({children}) => {
                         </div>
                     </section>
                     <div className={styles.sectionBorder} style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }}> 
-                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <b id="agency" className={styles.title}>Mes Projects</b>
                             <h1 className={styles.title}>Agence Web</h1>
                             <div>
@@ -83,51 +84,51 @@ const Layout = ({children}) => {
                                     Ce projet devait passer par les nombreuses étapes de la création d&apos;une agence en ligne, de l&apos;organisation du travail à la création du site internet. Il a été créé à l&apos;aide de Webpack.
                                 </p>
                                 <Image className={styles.image} src={Agence} alt="agence-web" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="https://github.com/MEGK-171/agence-web">GithubLink</a></p>
+                                <p className={styles.link}>Code: <a href="https://github.com/MEGK-171/agence-web"><GitHubIcon /></a></p>
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-left" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="bank" className={styles.title}>App Bancaire</h1>
                             <div>
                                 <p className={styles.paragraph}>
                                     Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires.
                                 </p>
                                 <Image className={styles.image} src={Bank} alt="bank" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="https://github.com/Marcelo1Marques/maze-bank">GithubLink</a></p>
+                                <p className={styles.link}>Code: <a href="https://github.com/Marcelo1Marques/maze-bank"><GitHubIcon /></a></p>
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="shop" className={styles.title}>Boutique</h1>
                             <div>
                                 <p className={styles.paragraph}>
                                     Ce projet s&apos;inscrit dans la continuité de l&apos;agence web, créant une boutique en ligne pour le site précédemment créé.
                                 </p>
                                 <Image className={styles.image} src={Profile} alt="shop" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="#">GithubLink</a></p>
+                                <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-left" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="movies" className={styles.title}>Site de films</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
                                 <Image className={styles.image} src={Profile} alt="movies" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="#">GithubLink</a></p>
+                                <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 id="movies" className={styles.title}>Blog</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
                                 <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="#">GithubLink</a></p>
+                                <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                             </div>
                         </section>
                     </div>
-                    <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                    <section data-aos="fade-up" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                         <h1 id="contact" className={styles.title}>Contact</h1>
                         <div>
                             <p className={styles.paragraph}>Si vous souhaitez me contacter, le lien suivant vous guidera vers mon CV en ligne.</p>

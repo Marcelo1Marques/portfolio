@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans serif"],
+        copperplate: ["Copperplate", "fantasy"],
+        ubuntu: ["Ubuntu", "sans serif"],
       },
     },
   },
