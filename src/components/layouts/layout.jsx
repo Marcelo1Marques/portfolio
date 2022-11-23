@@ -77,7 +77,7 @@ const Layout = ({children}) => {
                     </section>
                     <div className={styles.sectionBorder} style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }}> 
                         <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <b id="agency" className={styles.title}>Mes Projects</b>
+                            <b className={styles.title}>Mes Projects</b>
                             <h1 className={styles.title}>Agence Web</h1>
                             <div>
                                 <p className={styles.paragraph}>
@@ -89,7 +89,7 @@ const Layout = ({children}) => {
                         </section>
                         <hr className={styles.hr} />
                         <section data-aos="fade-left" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 id="bank" className={styles.title}>App Bancaire</h1>
+                            <h1 className={styles.title}>App Bancaire</h1>
                             <div>
                                 <p className={styles.paragraph}>
                                     Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires.
@@ -100,7 +100,7 @@ const Layout = ({children}) => {
                         </section>
                         <hr className={styles.hr} />
                         <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 id="shop" className={styles.title}>Boutique</h1>
+                            <h1 className={styles.title}>Boutique</h1>
                             <div>
                                 <p className={styles.paragraph}>
                                     Ce projet s&apos;inscrit dans la continuité de l&apos;agence web, créant une boutique en ligne pour le site précédemment créé.
@@ -111,7 +111,7 @@ const Layout = ({children}) => {
                         </section>
                         <hr className={styles.hr} />
                         <section data-aos="fade-left" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 id="movies" className={styles.title}>Site de films</h1>
+                            <h1 className={styles.title}>Site de films</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
                                 <Image className={styles.image} src={Profile} alt="movies" width={300} height={300}/>
@@ -120,7 +120,7 @@ const Layout = ({children}) => {
                         </section>
                         <hr className={styles.hr} />
                         <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 id="movies" className={styles.title}>Blog</h1>
+                            <h1 className={styles.title}>Blog</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
                                 <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
@@ -129,7 +129,7 @@ const Layout = ({children}) => {
                         </section>
                     </div>
                     <section data-aos="fade-up" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                        <h1 id="contact" className={styles.title}>Contact</h1>
+                        <h1 className={styles.title}>Contact</h1>
                         <div>
                             <p className={styles.paragraph}>Si vous souhaitez me contacter, le lien suivant vous guidera vers mon CV en ligne.</p>
                             <Image className={styles.image} src={Profile} alt="agence-web" width={300} height={300}/>

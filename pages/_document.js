@@ -10,7 +10,7 @@ export default function Document() {
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <body>
-        <div>
+        <div data-aos="fade-up">
           <Main />
           <NextScript />
         </div>
