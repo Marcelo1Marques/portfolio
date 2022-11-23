@@ -17,7 +17,6 @@ import Bank from "../../assets/img/bank.png";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from "@src/components/layouts/styles";
 import 'animate.css';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Layout = ({children}) => {      

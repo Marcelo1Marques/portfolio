@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        copperplate: ["Copperplate", "fantasy"],
+        fjallaOne: ["Fjalla One", "sans serif"],
         ubuntu: ["Ubuntu", "sans serif"],
       },
     },
