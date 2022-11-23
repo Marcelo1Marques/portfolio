@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -11,13 +10,9 @@ export default function Document() {
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <body>
-        <div data-aos="fade-up">
+        <div>
           <Main />
           <NextScript />
-          <Script defer src="https://unpkg.com/aos@next/dist/aos.js"></Script>
-          <Script defer>
-            AOS.init();
-          </Script>
         </div>
       </body>
     </Html>
