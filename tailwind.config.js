@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         fjallaOne: ["Fjalla One", "sans serif"],
         ubuntu: ["Ubuntu", "sans serif"],
+        rubrik: ['Rubik Distressed', "cursive"],
       },
     },
   },

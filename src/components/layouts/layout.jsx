@@ -34,7 +34,7 @@ const Layout = ({children}) => {
                             </div>
                         </div>
                         <b className={styles.title}>Qui suis je?</b>
-                        <p className={styles.paragraph}>Je m&apos;appelle Marcelo et bienvenue dans mon portfolio. Vous pouvez lire et voir mon travail en tant que développeur web au fil des ans. Pour toutes questions, n&apos;hésitez pas à me contacter via mon espace contact. <br /> Merci de votre visite.</p>
+                        <p className={styles.paragraph}>Bonjour visiteur, mon portfolio présente mes projets aussi bien front-end que back-end. Explorez comme bon vous semble et si vous avez des questions ou souhaitez me contacter, vous pouvez le faire dans la zone de contact. <br /> Merci pour votre visite!</p>
                         <b className={styles.title}>Domaines de travail</b>
                         <h3 className={styles.h3}>Avec quoi je travaille ?</h3>
                         <div data-aos="zoom-in" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
@@ -87,7 +87,7 @@ const Layout = ({children}) => {
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section data-aos="fade-left" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 className={styles.title}>App Bancaire</h1>
                             <div>
                                 <p className={styles.paragraph}>
@@ -109,7 +109,7 @@ const Layout = ({children}) => {
                             </div>
                         </section>
                         <hr className={styles.hr} />
-                        <section data-aos="fade-left" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
                             <h1 className={styles.title}>Site de films</h1>
                             <div>
                                 <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>

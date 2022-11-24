@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
     AOS.refresh();
   }, []);
 
-
   return <Component {...pageProps} />
 };
 
