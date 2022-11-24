@@ -1,5 +1,6 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import styles from "../preloader/styles";
+import background from "../../assets/img/bg-animation.jpg"
 
 const Preloader = () => {
     const x = useMotionValue(200);
@@ -18,8 +19,8 @@ const Preloader = () => {
         <div className={styles.animation}>
             <motion.div
             style={{
-                width: 400,
-                height: 400,
+                width: 600,
+                height: 600,
                 display: "flex",
                 placeItems: "center",
                 placeContent: "center",
@@ -31,10 +32,10 @@ const Preloader = () => {
             >
                 <motion.div
                     style={{
-                        width: 150,
-                        height: 150,
-                        borderRadius: 30,
-                        backgroundColor: "#fff",
+                        width: 250,
+                        height: 250,
+                        borderRadius: 50,
+                        background: "../../assets/img/bg-animation.jpg",
                         rotateX: rotateX,
                         rotateY: rotateY,
                     }}
