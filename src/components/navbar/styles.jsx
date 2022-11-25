@@ -1,5 +1,6 @@
 export let styles = {
-    title: "flex text-center justify-center pt-16 hover:text-purple-500",
-    navbar: "bg-black text-purple-300",
-    menu: "flex flex-col-1 bg-black h-full text-sm pl-8",
+    navbar: "text-center bg-black h-96 text-purple-300",
+    title: "flex text-center justify-center pt-80 hover:text-purple-500",
+    scroller: "flex justify-center",
+    arrow: "flex flex-col text-center items-center mt-36 animate__animated animate__slow animate__bounce animate__infinite",
 };

@@ -8,7 +8,7 @@ const HomePage = () => {
     useEffect(() => {
       setTimeout(() => {
         setLoader(false);
-      }, 0);
+      }, 40000);
     }, []);
   
     return loader ? (

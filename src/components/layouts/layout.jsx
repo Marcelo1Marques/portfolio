@@ -25,7 +25,7 @@ const Layout = ({children}) => {
             <Navbar />
             <main style={{ background: "linear-gradient(#000000, #0ab949, #43dd7a, #0ab949, #000000)" }} className={styles.main}>{children}
                 <div className={styles.template}>
-                    <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.presentation}>
+                    <section id="presentation" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.presentation}>
                         <div className={styles.border}>
                             <div style={{clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"}} className={styles.outerframe}>
                                 <div style={{clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"}} className={styles.innerframe}>

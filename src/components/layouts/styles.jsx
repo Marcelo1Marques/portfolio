@@ -1,6 +1,6 @@
 let styles = {
-    main: "min-h-screen text-yellow-200 text-sm md:text-lg",
-    template: "flex flex-col text-center px-4",
+    main: "min-h-screen text-yellow-200 pt-96 text-sm md:text-lg",
+    template: "flex flex-col text-center pt-64 px-4",
     outerframe:"flex shrink-0 h-64 mt-12 mb-12 w-64 bg-gradient-to-r from-red-600 to-blue-600",
     innerframe:"h-28 w-28 bg-cover m-auto",
     title: "pb-8 pt-12 uppercase underline",
