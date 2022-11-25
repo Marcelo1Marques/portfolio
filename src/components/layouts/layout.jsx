@@ -34,7 +34,7 @@ const Layout = ({children}) => {
                             </div>
                         </div>
                         <b className={styles.title}>Qui suis je?</b>
-                        <p className={styles.paragraph}>Bonjour visiteur, mon portfolio présente mes projets aussi bien front-end que back-end. Explorez comme bon vous semble et si vous avez des questions ou souhaitez me contacter, vous pouvez le faire dans la zone de contact. <br /> Merci pour votre visite!</p>
+                        <p className={styles.paragraph}>Bonjour visiteur, mon portfolio présente mes projets aussi bien front-end que back-end. J'ai toujours aimé travailler sur Internet, que ce soit pour des projets scolaires ou simplement pour des choses que j'aimais, comme les jeux vidéo. J'ai donc décidé de devenir développeur web pour travailler sur quelque chose qui pourrait exprimer ma passion. Explorez comme bon vous semble et si vous avez des questions ou souhaitez me contacter, vous pouvez le faire dans la zone de contact. <br /> Merci pour votre visite!</p>
                         <b className={styles.title}>Domaines de travail</b>
                         <h3 className={styles.h3}>Avec quoi je travaille ?</h3>
                         <div data-aos="zoom-in" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
