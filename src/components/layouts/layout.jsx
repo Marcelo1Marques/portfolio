@@ -25,7 +25,7 @@ const Layout = ({children}) => {
             <Navbar />
             <main style={{ background: "linear-gradient(#000000, #0ab949, #43dd7a, #0ab949, #000000)" }} className={styles.main}>{children}
                 <div className={styles.template}>
-                    <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                    <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.presentation}>
                         <div className={styles.border}>
                             <div style={{clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"}} className={styles.outerframe}>
                                 <div style={{clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"}} className={styles.innerframe}>
@@ -75,59 +75,61 @@ const Layout = ({children}) => {
                         </div>
                     </section>
                     <div className={styles.sectionBorder} style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }}> 
-                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <b className={styles.title}>Mes Projects</b>
-                            <h1 className={styles.title}>Agence Web</h1>
-                            <div>
-                                <p className={styles.paragraph}>
-                                    Ce projet devait passer par les nombreuses étapes de la création d&apos;une agence en ligne, de l&apos;organisation du travail à la création du site internet. Il a été créé à l&apos;aide de Webpack.
-                                </p>
-                                <Image className={styles.image} src={Agence} alt="agence-web" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="https://github.com/MEGK-171/agence-web"><GitHubIcon /></a></p>
-                            </div>
-                        </section>
-                        <hr className={styles.hr} />
-                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 className={styles.title}>App Bancaire</h1>
-                            <div>
-                                <p className={styles.paragraph}>
-                                    Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires.
-                                </p>
-                                <Image className={styles.image} src={Bank} alt="bank" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="https://github.com/Marcelo1Marques/maze-bank"><GitHubIcon /></a></p>
-                            </div>
-                        </section>
-                        <hr className={styles.hr} />
-                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 className={styles.title}>Boutique</h1>
-                            <div>
-                                <p className={styles.paragraph}>
-                                    Ce projet s&apos;inscrit dans la continuité de l&apos;agence web, créant une boutique en ligne pour le site précédemment créé.
-                                </p>
-                                <Image className={styles.image} src={Profile} alt="shop" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
-                            </div>
-                        </section>
-                        <hr className={styles.hr} />
-                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 className={styles.title}>Site de films</h1>
-                            <div>
-                                <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
-                                <Image className={styles.image} src={Profile} alt="movies" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
-                            </div>
-                        </section>
-                        <hr className={styles.hr} />
-                        <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
-                            <h1 className={styles.title}>Blog</h1>
-                            <div>
-                                <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
-                                <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
-                                <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
-                            </div>
-                        </section>
+                        <h1><b className={styles.title}>Mes Projects</b></h1>
+                        <div data-aos="fade-right" className={styles.innersection}>
+                            <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                                <h1 className={styles.title}>Agence Web</h1>
+                                <div>
+                                    <p className={styles.paragraph}>
+                                        Ce projet devait passer par les nombreuses étapes de la création d&apos;une agence en ligne, de l&apos;organisation du travail à la création du site internet. Il a été créé à l&apos;aide de Webpack.
+                                    </p>
+                                    <Image className={styles.image} src={Agence} alt="agence-web" width={300} height={300}/>
+                                    <p className={styles.link}>Code: <a href="https://github.com/MEGK-171/agence-web"><GitHubIcon /></a></p>
+                                </div>
+                            </section>
+                            <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                                <h1 className={styles.title}>App Bancaire</h1>
+                                <div>
+                                    <p className={styles.paragraph}>
+                                        Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires.
+                                    </p>
+                                    <Image className={styles.image} src={Bank} alt="bank" width={300} height={300}/>
+                                    <p className={styles.link}>Code: <a href="https://github.com/Marcelo1Marques/maze-bank"><GitHubIcon /></a></p>
+                                </div>
+                            </section>
+                        </div>
+                        <div data-aos="fade-right" className={styles.innersection}>
+                            <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                                <h1 className={styles.title}>Boutique</h1>
+                                <div>
+                                    <p className={styles.paragraph}>
+                                        Ce projet s&apos;inscrit dans la continuité de l&apos;agence web, créant une boutique en ligne pour le site précédemment créé.
+                                    </p>
+                                    <Image className={styles.image} src={Profile} alt="shop" width={300} height={300}/>
+                                    <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
+                                </div>
+                            </section>
+                            <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                                <h1 className={styles.title}>Site de films</h1>
+                                <div>
+                                    <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
+                                    <Image className={styles.image} src={Profile} alt="movies" width={300} height={300}/>
+                                    <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
+                                </div>
+                            </section>
+                        </div>
+                        <div data-aos="fade-right" className={styles.innersection}>
+                            <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                                <h1 className={styles.title}>Blog</h1>
+                                <div>
+                                    <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
+                                    <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
+                                    <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
+                                </div>
+                            </section>
+                        </div>
                     </div>
-                    <section data-aos="fade-up" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                    <section data-aos="fade-up" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.contact}>
                         <h1 className={styles.title}>Contact</h1>
                         <div>
                             <p className={styles.paragraph}>Si vous souhaitez me contacter, le lien suivant vous guidera vers mon CV en ligne.</p>
