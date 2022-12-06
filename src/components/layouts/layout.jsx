@@ -23,9 +23,9 @@ const Layout = ({children}) => {
     return (
         <>
             <Navbar />
-            <main style={{ background: "linear-gradient(#000000, #0ab949, #43dd7a, #0ab949, #000000)" }} className={styles.main}>{children}
+            <main style={{ background: "linear-gradient(#000000, #ED6F53, #ED6F53, #000000)" }} className={styles.main}>{children}
                 <div className={styles.template}>
-                    <section id="presentation" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.presentation}>
+                    <section id="presentation" className={styles.presentation}>
                         <div className={styles.border}>
                             <div style={{clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"}} className={styles.outerframe}>
                                 <div style={{clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"}} className={styles.innerframe}>
@@ -33,11 +33,11 @@ const Layout = ({children}) => {
                                 </div>
                             </div>
                         </div>
-                        <b className={styles.title}>Qui suis je?</b>
+                        <b id="presentation" className={styles.title}>Qui suis je?</b>
                         <p className={styles.paragraph}>Bonjour visiteur, mon portfolio présente mes projets aussi bien front-end que back-end. J&apos;ai toujours aimé travailler sur Internet, que ce soit pour des projets scolaires ou simplement pour des choses que j&apos;aimais, comme les jeux vidéo. J&apos;ai donc décidé de devenir développeur web pour travailler sur quelque chose qui pourrait exprimer ma passion. Explorez comme bon vous semble et si vous avez des questions ou souhaitez me contacter, vous pouvez le faire dans la zone de contact. <br /> Merci pour votre visite!</p>
                         <b className={styles.title}>Domaines de travail</b>
                         <h3 className={styles.h3}>Avec quoi je travaille ?</h3>
-                        <div data-aos="zoom-in" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
+                        <div data-aos="zoom-in" className={styles.logo}>
                             <div className={styles.frontend}>
                                 <Image src={Html} alt="logo" width="100" height="100" />
                                 <p>HTML5</p>
@@ -55,7 +55,7 @@ const Layout = ({children}) => {
                                 <p>React</p>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.logo}>
+                        <div data-aos="zoom-in" className={styles.logo}>
                             <div className={styles.backend}>
                                 <Image src={Sql} alt="logo" width="100" height="100" />
                                 <p>SQL</p>
@@ -74,10 +74,10 @@ const Layout = ({children}) => {
                             </div>
                         </div>
                     </section>
-                    <div className={styles.sectionBorder} style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }}> 
-                        <h1><b className={styles.title}>Mes Projects</b></h1>
-                        <div data-aos="fade-right" className={styles.innersection}>
-                            <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                    <div className={styles.sectionBorder}> 
+                        <h1 id="projects"><b className={styles.title}>Mes Projects</b></h1>
+                        <div className={styles.innersection}>
+                            <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Agence Web</h1>
                                 <div>
                                     <p className={styles.paragraph}>
@@ -87,7 +87,7 @@ const Layout = ({children}) => {
                                     <p className={styles.link}>Code: <a href="https://github.com/MEGK-171/agence-web"><GitHubIcon /></a></p>
                                 </div>
                             </section>
-                            <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                            <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>App Bancaire</h1>
                                 <div>
                                     <p className={styles.paragraph}>
@@ -98,8 +98,8 @@ const Layout = ({children}) => {
                                 </div>
                             </section>
                         </div>
-                        <div data-aos="fade-right" className={styles.innersection}>
-                            <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                        <div className={styles.innersection}>
+                            <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Boutique</h1>
                                 <div>
                                     <p className={styles.paragraph}>
@@ -109,7 +109,7 @@ const Layout = ({children}) => {
                                     <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                                 </div>
                             </section>
-                            <section data-aos="fade-right" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                            <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Site de films</h1>
                                 <div>
                                     <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
@@ -119,7 +119,7 @@ const Layout = ({children}) => {
                             </section>
                         </div>
                         <div data-aos="fade-right" className={styles.innersection}>
-                            <section style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.section}>
+                            <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Blog</h1>
                                 <div>
                                     <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
@@ -129,7 +129,7 @@ const Layout = ({children}) => {
                             </section>
                         </div>
                     </div>
-                    <section data-aos="fade-up" style={{ background: "radial-gradient(#a412d0, #3f1a4a)" }} className={styles.contact}>
+                    <section id="contact" data-aos="fade-up" className={styles.contact}>
                         <h1 className={styles.title}>Contact</h1>
                         <div>
                             <p className={styles.paragraph}>Si vous souhaitez me contacter, le lien suivant vous guidera vers mon CV en ligne.</p>
