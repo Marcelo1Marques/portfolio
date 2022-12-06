@@ -10,7 +10,7 @@ import ReactImg from "../../assets/img/react.png";
 import Sql from "../../assets/img/sql.png";
 import Php from "../../assets/img/php.png";
 import Nodejs from "../../assets/img/nodejs.png";
-import Python from "../../assets/img/python.png";
+import Symfony from "../../assets/img/symfony.png";
 import Agence from "../../assets/img/agence.png";
 import Bank from "../../assets/img/bank.png";
 // import Shop from "../../assets/img/";
@@ -23,7 +23,7 @@ const Layout = ({children}) => {
     return (
         <>
             <Navbar />
-            <main style={{ background: "linear-gradient(#000000, #ED6F53, #ED6F53, #000000)" }} className={styles.main}>{children}
+            <main style={{ background: "linear-gradient(#000000, #802424, #802424, #000000)" }} className={styles.main}>{children}
                 <div className={styles.template}>
                     <section id="presentation" className={styles.presentation}>
                         <div className={styles.border}>
@@ -69,14 +69,15 @@ const Layout = ({children}) => {
                                 <p>NodeJS</p>
                             </div>
                             <div className={styles.backend}>
-                                <Image src={Python} alt="logo" width="100" height="100" />
-                                <p>Python</p>
+                                <Image src={Symfony} alt="logo" width="100" height="100" />
+                                <p>Symfony</p>
                             </div>
                         </div>
                     </section>
                     <div className={styles.sectionBorder}> 
-                        <h1 id="projects"><b className={styles.title}>Mes Projects</b></h1>
-                        <div className={styles.innersection}>
+                        <h1 className={styles.title} id="projects"><b >Mes Projects</b></h1>
+                        <p>Les blocs suivants montrent mes projets en cours ou terminés.</p>
+                        <div data-aos="fade-right" className={styles.innersection}>
                             <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Agence Web</h1>
                                 <div>
@@ -91,14 +92,14 @@ const Layout = ({children}) => {
                                 <h1 className={styles.title}>App Bancaire</h1>
                                 <div>
                                     <p className={styles.paragraph}>
-                                        Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires.
+                                        Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires, par exemple transférer de l'argent.
                                     </p>
                                     <Image className={styles.image} src={Bank} alt="bank" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="https://github.com/Marcelo1Marques/maze-bank"><GitHubIcon /></a></p>
                                 </div>
                             </section>
                         </div>
-                        <div className={styles.innersection}>
+                        <div data-aos="fade-right" className={styles.innersection}>
                             <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Boutique</h1>
                                 <div>
@@ -123,6 +124,14 @@ const Layout = ({children}) => {
                                 <h1 className={styles.title}>Blog</h1>
                                 <div>
                                     <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
+                                    <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
+                                    <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
+                                </div>
+                            </section>
+                            <section data-aos="fade-right" className={styles.section}>
+                                <h1 className={styles.title}>Projet Défi</h1>
+                                <div>
+                                    <p className={styles.paragraph}>Application de une maquettage d&apos;un portfolio en React, fait pour pratiquer sur la façon d&apos; appliquer une idée donnée.</p>
                                     <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                                 </div>

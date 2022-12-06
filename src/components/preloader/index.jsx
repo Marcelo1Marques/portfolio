@@ -17,7 +17,7 @@ const Preloader = () => {
         y.set(event.clientY - rect.top);
     }
     return (
-        <div className={styles.animation}>
+        <div className={styles.outer}>
             <motion.div
             style={{
                 width: 400,
