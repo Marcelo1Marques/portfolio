@@ -13,13 +13,13 @@ import Nodejs from "../../assets/img/nodejs.png";
 import Symfony from "../../assets/img/symfony.png";
 import Agence from "../../assets/img/agence.png";
 import Bank from "../../assets/img/bank.png";
-// import Shop from "../../assets/img/";
+import Shop from "../../assets/img/shop.png";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from "@src/components/layouts/styles";
 import 'animate.css';
 import 'aos/dist/aos.css';
 
-const Layout = ({children}) => {      
+const Layout = ({children}) => {
     return (
         <>
             <Navbar />
@@ -92,7 +92,7 @@ const Layout = ({children}) => {
                                 <h1 className={styles.title}>App Bancaire</h1>
                                 <div>
                                     <p className={styles.paragraph}>
-                                        Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires, par exemple transférer de l'argent.
+                                        Ce projet visait à créer une application qui utilise un algorithme Javascript pour gérer les transactions bancaires, par exemple transférer de l&apos;argent.
                                     </p>
                                     <Image className={styles.image} src={Bank} alt="bank" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="https://github.com/Marcelo1Marques/maze-bank"><GitHubIcon /></a></p>
@@ -106,14 +106,14 @@ const Layout = ({children}) => {
                                     <p className={styles.paragraph}>
                                         Ce projet s&apos;inscrit dans la continuité de l&apos;agence web, créant une boutique en ligne pour le site précédemment créé.
                                     </p>
-                                    <Image className={styles.image} src={Profile} alt="shop" width={300} height={300}/>
+                                    <Image className={styles.image} src={Shop} alt="shop" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                                 </div>
                             </section>
                             <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Site de films</h1>
                                 <div>
-                                    <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
+                                    <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données. Actuellement en cours.</p>
                                     <Image className={styles.image} src={Profile} alt="movies" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                                 </div>
@@ -123,7 +123,7 @@ const Layout = ({children}) => {
                             <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Blog</h1>
                                 <div>
-                                    <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données.</p>
+                                    <p className={styles.paragraph}>Ce projet vise à travailler sur le back-end d&apos;une application, en utilisant un moyen de stocker des données. Actuellement en cours.</p>
                                     <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                                 </div>
@@ -131,7 +131,7 @@ const Layout = ({children}) => {
                             <section data-aos="fade-right" className={styles.section}>
                                 <h1 className={styles.title}>Projet Défi</h1>
                                 <div>
-                                    <p className={styles.paragraph}>Application de une maquettage d&apos;un portfolio en React, fait pour pratiquer sur la façon d&apos; appliquer une idée donnée.</p>
+                                    <p className={styles.paragraph}>Application de une maquettage d&apos;un portfolio en React, fait pour pratiquer sur la façon d&apos; appliquer une idée donnée. Actuellement en cours.</p>
                                     <Image className={styles.image} src={Profile} alt="blog" width={300} height={300}/>
                                     <p className={styles.link}>Code: <a href="#"><GitHubIcon /></a></p>
                                 </div>

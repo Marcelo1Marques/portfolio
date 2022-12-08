@@ -3,23 +3,28 @@ import Preloader from "../../src/components/preloader/index";
 import React, { useState, useEffect } from "react";
 
 const HomePage = () => {
-    const [loader, setLoader] = useState(true);
+    // const [loader, setLoader] = useState(true);
   
-    useEffect(() => {
-      setTimeout(() => {
-        setLoader(false);
-      }, 2500);
-    }, []);
+    // useEffect(() => {
+    //   setTimeout(() => {
+    //     setLoader(false);
+    //   }, 2500);
+    // }, []);
   
-    return loader ? (
-      <>
-      <Preloader/>
-      </>
-      ) : (
-      <>
-      <Layout/>
-      </>
-    );
+    // return loader ? (
+    //   <>
+    //   {/* <Preloader/> */}
+    //   </>
+    //   ) : (
+    //   <>
+    //   <Layout/>
+    //   </>
+
+return (
+    <>
+    <Layout/>
+    </>
+    )
   };
   
 

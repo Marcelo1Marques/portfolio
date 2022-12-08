@@ -9,7 +9,7 @@ const Footer = () => {
                     <b className={styles.title}>Projects</b>
                     <a id="agence-web" href="https://meta-code.netlify.app/">Agence Web</a>
                     <a id="app-bank" href="https://bank-marcelo.netlify.app/">App Bancaire</a>
-                    <a id="shop" href="#">Boutique</a>
+                    <a id="shop" href="https://metacode-mekg.fr/">Boutique</a>
                     <a id="blog" href="#">Blog</a>
                     <a id="movie" href="#">Site de Films</a>
                 </div>
