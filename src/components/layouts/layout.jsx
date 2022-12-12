@@ -34,7 +34,7 @@ const Layout = ({children}) => {
                             </div>
                         </div>
                         <b id="presentation" className={styles.title}>Qui suis je?</b>
-                        <p className={styles.paragraph}>Bonjour visiteur, mon portfolio présente mes projets aussi bien front-end que back-end. J&apos;ai toujours aimé travailler sur Internet, que ce soit pour des projets scolaires ou simplement pour des choses que j&apos;aimais, comme les jeux vidéo. J&apos;ai donc décidé de devenir développeur web pour travailler sur quelque chose qui pourrait exprimer ma passion. Explorez comme bon vous semble et si vous avez des questions ou souhaitez me contacter, vous pouvez le faire dans la zone de contact. <br /> Merci pour votre visite!</p>
+                        <p className={styles.paragraph}>Bonjour visiteur, mon portfolio présente mes projets aussi bien front-end que back-end. J&apos;ai toujours aimé travailler sur Internet, que ce soit pour des projets scolaires ou simplement pour des choses que j&apos;aimais, comme les jeux vidéo. J&apos;ai donc décidé de devenir développeur web pour travailler sur quelque chose qui pourrait exprimer ma passion. Explorez comme bon vous semble et si vous avez des questions ou souhaitez me contacter, vous pouvez le faire dans la zone de contact. Actuellement en formation avec Online Forma Pro, j&apos;essaie de valider mes compétences et de devenir un meilleur développeur. <br /> Merci pour votre visite!</p>
                         <b className={styles.title}>Domaines de travail</b>
                         <h3 className={styles.h3}>Avec quoi je travaille ?</h3>
                         <div data-aos="zoom-in" className={styles.logo}>
@@ -138,13 +138,6 @@ const Layout = ({children}) => {
                             </section>
                         </div>
                     </div>
-                    <section id="contact" data-aos="fade-up" className={styles.contact}>
-                        <h1 className={styles.title}>Contact</h1>
-                        <div>
-                            <p className={styles.paragraph}>Si vous souhaitez me contacter, le lien suivant vous guidera vers mon CV en ligne.</p>
-                            <Image className={styles.image} src={Profile} alt="agence-web" width={300} height={300}/>
-                        </div>
-                    </section>
                 </div>
             </main>
             <Footer />
